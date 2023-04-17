@@ -143,6 +143,13 @@ main{
     margin: 1em;
     border-radius: 10px;
     position:relative;
+    /* background-color:rgb(26, 188, 156) ; */
+    
+}
+.sec2-grid img:hover{
+    opacity: 0.4;
+   /* color:rgb(26, 188, 156); */
+    
     
 }
 .sec2-grid img{
