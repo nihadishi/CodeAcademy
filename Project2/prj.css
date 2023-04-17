@@ -394,6 +394,9 @@ header{
     text-align: center;
 }
 /* SEC2 */
+.portfolio{
+    height: 2000px;
+}
 .sec2-grids{
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
