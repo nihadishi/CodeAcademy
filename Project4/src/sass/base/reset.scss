@@ -1,5 +1,14 @@
+@font-face{
+    font-family: epilogue;
+    src: url(/fonts/Epilogue-Regular.ttf)
+}
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: epilogue;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
 }
