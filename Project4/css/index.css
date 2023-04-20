@@ -22,6 +22,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  z-index: 100;
 }
 .topbar__frame {
   display: flex;
@@ -61,7 +63,10 @@ body {
   padding: 160px 220px 60px 220px;
 }
 .section__1-about {
-  width: 100%;
+  padding-top: 136px;
+  border-width: 0px;
+  width: 1000px;
+  margin: 0 auto;
 }
 .section__1-about-img {
   width: 100%;
@@ -112,13 +117,20 @@ h2 {
   align-items: center;
   text-align: center;
   justify-content: flex-start;
-  padding-left: 220px;
+  padding-left: 340px;
+  padding-top: 50px;
+}
+
+.card {
+  border-width: 0px;
 }
 
 .section__2 {
-  width: 100%;
+  width: 1000px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid gray;
 }
 .section__2d {
   padding: 0px 60px 100px 220px;

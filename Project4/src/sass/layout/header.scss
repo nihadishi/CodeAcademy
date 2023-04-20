@@ -5,7 +5,8 @@
     background-color: #2B2B2B;
     @include flex-row;
     justify-content: space-between;
-
+    position: fixed;
+    z-index: 100;
     &__frame{
         @include flex-row;
         @include center;
@@ -42,10 +43,15 @@
     // }
 }
 .section__1{
+    
     padding: 160px 220px 60px 220px;
+    
  
     &-about{
-        width: 100%;
+        padding-top: 136px;
+        border-width: 0px;
+        width: 1000px;
+        margin: 0 auto;
         
         &-img{
             width: 100%;
@@ -100,14 +106,19 @@ h2{
     width: 100%;
     @include center;
     justify-content: flex-start;
-    padding-left: 220px;
+    padding-left: 340px;
+    padding-top: 50px;
 }
-
+.card{
+    border-width: 0px;
+}
 .section__2{
-    width: 100%;
+    width: 1000px;
+    margin: 0 auto;
     
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid gray;
     
 &d{
     padding: 0px 60px 100px 220px;
