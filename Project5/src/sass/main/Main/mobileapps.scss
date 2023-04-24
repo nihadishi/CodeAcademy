@@ -38,6 +38,9 @@
                 background-color: $main-blue;
                 color: white;
             }
+            &_vector:hover{
+                display: none;
+            }
         }
     }
 }

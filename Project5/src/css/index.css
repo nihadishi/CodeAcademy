@@ -316,6 +316,9 @@ header {
   background-color: #458FF6;
   color: white;
 }
+.mobileapps_div_download_vector:hover {
+  display: none;
+}
 
 .customersaying {
   position: relative;
