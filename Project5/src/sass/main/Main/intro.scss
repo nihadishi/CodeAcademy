@@ -12,8 +12,9 @@
 
     &_consult{
         
-        width: 445px;
+       max-width: 445px;
         height: 524px;//338height+186padding
+        margin-bottom: 30px;
         
 
 
@@ -45,6 +46,7 @@
             line-height: 60px;
             cursor: pointer;
             transition: 0.2s;
+            margin-bottom: 20px;
             &:hover{
                 background-color: #73DDFA;
             }

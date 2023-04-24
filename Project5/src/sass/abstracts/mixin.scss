@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+@mixin flex-col{
+    display: flex;
+    flex-direction: column;
+}
 @mixin center{
     display: flex;
     justify-content: center;

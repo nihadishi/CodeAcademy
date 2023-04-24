@@ -1,7 +1,7 @@
 
 
 .our-services{
-    background-image: url(../src/img/pic/our-services_bg.png);
+    background-image: url(/src/img/pic/our-services_bg.png);
     background-repeat: no-repeat;
     width: 100%;
     margin: 0 auto 221px;
@@ -26,7 +26,7 @@
 
     & .h3-1{
         text-align: center;
-        width: 952px;
+        max-width: 952px;
         font-weight: 300;
         font-size: 18px;
         color: $main-gray;
